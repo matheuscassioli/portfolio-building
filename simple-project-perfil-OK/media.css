@@ -1,0 +1,6 @@
+@media screen and (max-width: 330px) {
+    .profile{
+        width: 90%; 
+        background-size: auto;
+    }
+}

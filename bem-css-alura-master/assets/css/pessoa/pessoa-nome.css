@@ -1,0 +1,6 @@
+.pessoa__nome{
+    color: #8D0606;  
+    font-family: pacifico, cursive;
+    font-size: calc(3.1875rem / 2);
+    padding: 1rem 0;
+}

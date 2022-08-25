@@ -1,0 +1,40 @@
+.rodape {
+    background-color: #a5a5a5;
+    color: #fbfbfb;
+    text-transform: lowercase;
+}
+
+.coded {
+    text-transform: none;
+}
+
+.alura {
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.rodape img {
+    width: 20px;
+    vertical-align: middle;
+}
+
+.rodape .matheuscassioli {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media screen and (min-width:0px) {
+    .rodape {
+        padding: 1.5625rem 1rem;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:930px) {
+    .rodape {
+        text-align: end;
+        padding: 1.5625rem 5rem;
+    }
+}

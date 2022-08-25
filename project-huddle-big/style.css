@@ -1,0 +1,535 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    width: 100% !important;
+    height: 110%;
+}
+
+.header {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 70%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+}
+
+.logo img {
+    width: 186px;
+    height: 34px;
+}
+
+.botao {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 100px;
+}
+
+.section1 {
+
+    width: 100% !important;
+    height: 70% !important;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+}
+
+.section1 h1 {
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.section1 p {
+    margin-top: 20px;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    width: 80%;
+    margin: 1em auto;
+}
+
+.img-conversa {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-conversa img {
+    width: 70%;
+}
+
+.numbers-all {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.numbers {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-numbers {
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.background1 {
+    width: 100%;
+    margin-bottom: -1px;
+    margin-top: 30px;
+}
+
+.background2 {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+.bg-all {
+    background-color: hsl(207, 100%, 98%);
+    display: flex;
+    padding: 30px 0px 30px 0px;
+    width: 100%;
+    align-items: center;
+    margin-top: -4px;
+}
+
+.bg-text {
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    width: 40%;
+    overflow: hidden !important;
+    align-items: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.bg-all-img {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.bg-text h1 {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+
+.bg-text p {
+    padding-left: 10px;
+}
+
+.flowing {
+    display: flex;
+    padding: 30px 0px 30px 0px;
+    width: 100%;
+    align-items: center;
+    margin-top: -4px;
+}
+
+.bg-flowing-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.bg-flowing-text {
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    width: 50%;
+    overflow: hidden !important;
+    align-items: center;
+    padding: 10px;
+}
+
+.bg-flowing-text p {
+    margin-right: 20px;
+}
+
+.final {
+    display: flex;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.final h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px 21px;
+}
+
+.background3 {
+    margin-bottom: -10px !important;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.infos-finais {
+    background-color: black;
+    margin-top: 2px;
+    height: 120%;
+    color: white;
+    display: flex;
+    width: 100%;
+    padding-top: 40px;
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.left-side {
+    width: 40%;
+}
+
+.right-side {
+    width: 40%;
+}
+
+.infos-text {
+    font-size: 12px;
+    padding: 20px 30px 20px 30px;
+}
+
+.logo-footer {
+    margin-left: 30px;
+}
+
+.logo-footer img {
+    width: 59%;
+}
+
+.infos-phone {
+    font-size: 12px;
+}
+
+.infos-phone img {
+    vertical-align: middle;
+    margin-left: 30px;
+    margin-right: 10px;
+
+}
+
+.infos-email {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.infos-email img {
+    vertical-align: middle;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.infos-h1 h1 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.infos-h1 p {
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+input {
+    margin-top: 10px;
+    height: 36px;
+    border-radius: 6px;
+    width: 244px;
+}
+
+.redes-sociais {
+    cursor: pointer;
+    display: flex;
+    width: 58%;
+    height: 60px;
+    margin: 20px;
+    justify-content: space-around;
+}
+
+.face {
+    background-image: url(./img/face-white.png);
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
+
+.face:hover {
+    background-image: url(./img/face-blue.png);
+}
+
+.instagram {
+    background-image: url(./img/insta-white.png);
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
+.instagram:hover {
+    background-image: url(./img/insta-red.png);
+}
+
+.twitter {
+    background-image: url(./img/twitter-white.png);
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+}
+.twitter:hover {
+    background-image: url(./img/twitter-blue.png); 
+}
+
+footer {
+    height: 60px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 10px 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.attribution a {
+    color: white;
+    text-decoration: none;
+}
+
+.attribution a:nth-child(2) {
+    font-weight: bold;
+}
+
+.frontendmentor {
+    font-style: italic;
+}
+
+.attribution img {
+    padding: 0px !important;
+    vertical-align: middle;
+}
+
+/*----------------------MediaQueries----------------*/
+
+
+@media screen and (max-width:497px) {
+
+    .numbers-all,
+    .flowing {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .bg-all {
+        flex-direction: column-reverse;
+    }
+
+    .bg-all-img,
+    .bg-flowing-img {
+        width: 100%;
+    }
+
+    .bg-text,
+    .bg-flowing-text {
+        width: 100%;
+    }
+
+    .bg-text h1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bg-flowing-text h1 {
+        text-align: center;
+    }
+
+    .logo {
+        padding-left: 10px !important;
+        margin-left: 10px !important;
+    }
+}
+
+@media screen and (max-width:594px) {
+    .infos-finais {
+        flex-direction: column-reverse;
+    }
+
+    .right-side {
+        width: 100%;
+    }
+
+    .left-side {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .infos-h1 h1 {
+        margin-left: 30px;
+    }
+
+    .infos-h1 p {
+        padding: 10px 30px 10px 30px !important;
+    }
+
+    .myButton2 {
+        float: right !important;
+        margin-right: 54px !important;
+    }
+
+    input {
+        width: 80% !important;
+        display: flex;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .header {
+        flex-direction: column;
+        height: 113px;
+        width: 100%;
+    }
+
+    .logo {
+        margin: 0px !important;
+        padding: 0px !important;
+    }
+
+    .logo img {
+        margin-top: 30px;
+    }
+
+    .botao {
+        width: 100%;
+        margin-top: 20px !important;
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    .myButton {
+        margin-right: 0px !important;
+    }
+
+    .final {
+        text-align: center !important;
+    }
+
+}
+
+
+/*----------------------ClassButton----------------*/
+.myButton {
+    background-color: #ffffff;
+    border-radius: 42px;
+    border: 1px solid #f2c4d7;
+    display: inline-block;
+    cursor: pointer;
+    color: #f77bf7;
+    font-family: Arial;
+    white-space: nowrap;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+    margin-right: 27px;
+}
+
+.myButton:hover {
+    background-color: #f5d2f5;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.botao2 {
+    margin-top: 26px;
+    justify-content: center;
+    display: flex;
+}
+
+.myButton1 {
+    box-shadow: inset 0px 1px 0px 0px #fbafe3;
+    background: linear-gradient(to bottom, #ff5bb0 5%, #ff299b 100%);
+    background-color: #ff5bb0;
+    border-radius: 21px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 12px 22px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #c70067;
+}
+
+.myButton1:hover {
+    background: linear-gradient(to bottom, #ff299b 5%, #ff5bb0 100%);
+    background-color: #ff299b;
+}
+
+.myButton1:active {
+    position: relative;
+    top: 1px;
+}
+
+.myButton2 {
+    box-shadow: inset 0px 1px 0px 0px #fbafe3;
+    background: linear-gradient(to bottom, #ff5bb0 5%, #ff299b 100%);
+    background-color: #ff5bb0;
+    border-radius: 6px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 12px 20px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #c70067;
+}
+
+.myButton2:hover {
+    background: linear-gradient(to bottom, #ff299b 5%, #ff5bb0 100%);
+    background-color: #ff299b;
+}
+
+.myButton2:active {
+    position: relative;
+    top: 1px;
+}

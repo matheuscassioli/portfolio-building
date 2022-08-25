@@ -1,0 +1,54 @@
+.projetos-add__item--snap {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: gold;
+    background-image: url(../../img/responsivo.png);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.projetos-add__item--snap:hover {
+    opacity: .5;
+}
+.projetos-add__item--snap:active {
+    border: white solid 3px;
+    opacity: 1;
+}
+.projetos-add__item--huddle {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: aqua;
+    background-image: url(../../img/comunnity.png);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+.projetos-add__item--huddle:hover {
+    opacity: .5;
+}
+.projetos-add__item--huddle:active {
+    border: white solid 3px;
+    opacity: 1;
+}
+
+
+.projetos-add__item--ecommerce {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: violet;
+    background-image: url(../../img/ecommerce.png);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+.projetos-add__item--ecommerce:hover {
+    opacity: .5;
+}
+.projetos-add__item--ecommerce:active {
+    border: white solid 3px;
+    opacity: 1;
+}

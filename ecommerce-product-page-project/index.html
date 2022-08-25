@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="invible-menu-lateral" id="elemento">
+        <div class="close-menu" id="close-menu" onclick="fecharMenu()"><img src="./img/X.png" style="filter: invert;"
+                alt=""></div>
+        <div class="menus">
+            <p><a href="#">Collections</a></p>
+            <p><a href="#">Men</a></p>
+            <p><a href="#">Women</a></p>
+            <p><a href="#">About</a></p>
+            <p><a href="#">Contact</a></p>
+        </div> 
+    </div>
+
+    <nav class="navbar">
+        <div class="left-header">
+            <ul>
+                <div class="menu-icon" id="menu-icone"><img src="./img/menu-icon.png" alt="" onclick="aparecerMenuLateral() "></div>
+                <li><img src="./img/logo.svg" alt=""></li>
+                <li><a href="#">Collections</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="right-header">
+            <ul>
+                <li><img class="img-mincar" id="carrinho-direita" src="./img/icon-cart.svg" alt=""></li>
+                <li><img class="img-avatar" src="./img/image-avatar.png" alt=""></li>
+            </ul>
+        </div>
+    </nav>
+
+    <hr id="linha-separadora">
+
+    <div class="second-section">
+        <div class="left-side">
+            <div class="img-e-comm">
+                <div class="big-img-top" id="imagem-produto-principal">
+                    <img src="./img/image-product-1-thumbnail.jpg" alt="" id="image">
+                </div>
+                <div class="min-img-down">
+                    <img src="./img/image-product-1.jpg" alt="" onclick="alterarImagem()">
+                    <img src="./img/image-product-2.jpg" alt="">
+                    <img src="./img/image-product-3.jpg" alt="">
+                    <img src="./img/image-product-4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="right-side" id="conteudo-direita">
+            <div class="right-conteudo" >
+                <div class="sneaker-company">
+                    <p>Sneaker Company</p>
+                </div>
+
+                <h2 class="limited-sneakers">Fall Limited Edition Sneakers</h2>
+
+                <div class="text-right">
+                    <p>These low-profile sneakers are your perfect casual wear companion. Featuring
+                        a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+                </div>
+
+                <div class="testando">
+                    <div class="price">
+                        <div class="price1">$125.00</div>
+                        <div class="sale">50%</div>
+                    </div>
+                    <div class="sale1"><s>$250.00</s></div>
+                </div>
+
+                <div class="corpo">
+                    <div class="container">
+                        <div class="menos" id="menos" onclick="decrementClick()"><img src="./img/menos.png" width="22px"
+                                alt=""></div>
+                        <div class="numero" id="counter-label">0</div>
+                        <div class="mais" id="mais" onclick="incrementClick()"><img src="./img/mais.png" width="22px"
+                                alt=""></div>
+                    </div>
+                    <div>
+                        <a href="#" class="myButton">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

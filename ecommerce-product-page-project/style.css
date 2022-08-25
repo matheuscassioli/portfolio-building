@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.navbar ul {
+    width: 100%;
+    align-items: center;
+}
+
+.navbar ul li {
+    list-style: none;
+    padding: 1em;
+}
+
+.navbar ul li a {
+    color: grey;
+    text-decoration: none;
+}
+
+.left-header {
+    display: flex;
+}
+
+.right-header {
+    display: flex;
+    align-items: center;
+}
+
+.right-header ul {
+    display: flex;
+    align-items: center;
+}
+
+.right-header ul li:nth-child(22) {
+    height: 74px;
+}
+
+.right-header ul li:nth-child(1) {
+    width: 40px !important;
+}
+
+.left-header ul {
+    align-items: center;
+    display: flex;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+hr {
+    size: 1px;
+    width: 92%;
+    margin: auto;
+}
+
+.hr2 {
+    display: none;
+}
+
+.menu-icon {
+    vertical-align: middle;
+    display: none;
+}
+
+.menu-icon img {
+    width: 30px;
+}
+
+.menus {
+    display: none;
+}
+
+.menus p a {
+    color: rgb(29, 22, 22);
+    text-decoration: none;
+}
+
+.navbar ul li a {
+    font-size: 16px;
+}
+
+.navbar ul li a:hover {
+    transition: all .1s ease-in;
+    font-size: 20px;
+}
+
+.close-menu {
+    display: none;
+}
+
+.img-avatar {
+    width: 40px;
+}
+
+.img-avatar:hover {
+    transition: all .1s ease-in;
+    width: 43px;
+    cursor: pointer;
+}
+
+.img-mincar:hover {
+    transition: all .1s ease-in;
+    width: 30px;
+    cursor: pointer;
+}
+
+.img-mincar2 {
+    transition: all .1s ease-in;
+    filter: invert(1);
+}
+
+.second-section {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    margin-top: 30px;
+}
+
+.right-side {
+    display: flex;
+    width: 50%;
+    height: 74vh;
+}
+
+.left-side {
+    display: flex;
+    width: 50%;
+    height: 74vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-img-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 80%;
+}
+
+.big-img-top2 {
+    display: none;
+}
+
+
+.big-img-top img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.min-img-down {
+    width: 72%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+
+.imagem-pqn-1 {
+    background-color: red !important;
+    z-index: 10000;
+}
+
+.min-img-down img {
+    width: 22%;
+    border-radius: 15px;
+}
+
+.min-img-down img:nth-child(1) {
+    border: unset;
+}
+
+.min-img-down img:nth-child(2) {
+    border: unset;
+}
+
+.min-img-down img:nth-child(3) {
+    border: unset;
+}
+
+.min-img-down img:nth-child(4) {
+    border: unset;
+}
+
+.min-img-down img:nth-child(1):hover {
+    border: 1.4px rgb(107, 106, 106) solid;
+}
+.min-img-down img:nth-child(2):hover {
+    border: 1.4px rgb(107, 106, 106) solid;
+}
+.min-img-down img:nth-child(3):hover {
+    border: 1.4px rgb(107, 106, 106) solid;
+}
+.min-img-down img:nth-child(4):hover {
+    border: 1.4px rgb(107, 106, 106) solid;
+}
+
+.img-e-comm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column !important;
+    max-width: 420px;
+    width: 122%;
+}
+
+.right-side {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.right-side2 {
+    display: none;
+}
+
+.right-side>.right-conteudo {
+    width: 95%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-conteudo {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+
+}
+
+.sneaker-company {
+    text-transform: uppercase;
+    color: hsl(26, 100%, 55%);
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-bottom: 16px;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    width: 80%;
+
+}
+
+.price {
+    display: flex;
+    width: 90%;
+    padding-top: 15px;
+}
+
+.limited-sneakers {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    margin: 0px 0px 24px 0px;
+    font-size: 35px;
+}
+
+.text-right {
+    margin: 0px 0px 24px 0px;
+    color: rgb(121, 118, 118);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+    width: 90%;
+}
+
+.sale {
+    background-color: hsl(25, 100%, 94%);
+    color: hsl(26, 100%, 55%);
+    color: orange;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    width: 38px;
+    height: 20px;
+    vertical-align: middle;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.price1 {
+    font-size: 22px !important;
+    margin-right: 10px;
+    font-weight: bold;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.sale1 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+    color: rgb(121, 118, 118);
+}
+
+/*-----------CSS BOTÃO INCREMENTAR-------------*/
+
+.corpo {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.container {
+    width: 30%;
+    height: 44px;
+    display: flex;
+    border: 1px solid black;
+    max-width: 100px;
+    min-width: 100px;
+    border-radius: 3px;
+    border: unset;
+    background-color: rgb(233, 231, 231);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.menos {
+    font-size: 30px;
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menos:hover {
+    background-color: rgba(241, 188, 90, 0.452);
+}
+
+.numero {
+    display: flex;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.mais {
+    justify-content: center;
+    font-size: 30px;
+    display: flex;
+    width: 25%;
+    cursor: pointer;
+    align-items: center;
+}
+
+.mais:hover {
+    background-color: rgba(241, 188, 90, 0.452);
+}
+
+/*-----------------CSS-BUTTON----------------*/
+
+.myButton {
+    background-color: #ff9412;
+    border-radius: 10px;
+    border: 1px solid #e3a43f;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    padding: 12px 43px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #cc9f52;
+    margin-bottom: 50px;
+}
+
+.myButton:hover {
+    background-color: #ffcf94;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+
+/*-----------------MEDIA-QUERIES----------------*/
+
+
+@media screen and (max-width:807px) {
+    .left-header ul {
+        align-items: center;
+    }
+
+    .menu-icon {
+        width: 30px;
+        display: block;
+        cursor: pointer;
+        margin-left: 10px;
+        transition: all 1s;
+    }
+
+    .menu-icon2 {
+        filter: invert(1);
+    }
+
+    .menu-icon:hover {
+        transform: rotateZ(360deg);
+    }
+
+    .left-header ul li:nth-child(3) {
+        display: none;
+    }
+
+    .left-header ul li:nth-child(4) {
+        display: none;
+    }
+
+    .left-header ul li:nth-child(5) {
+        display: none;
+    }
+
+    .left-header ul li:nth-child(6) {
+        display: none;
+    }
+
+    .left-header ul li:nth-child(7) {
+        display: none;
+    }
+
+    .left-header ul li:nth-child(8) {
+        display: none;
+    }
+
+    .invible-menu-lateral {
+        display: none;
+    }
+
+    .invible-menu-lateral2 {
+        width: 50%;
+        height: 100%;
+        position: fixed;
+        background-color: white;
+        min-width: 120px;
+        top: 100px;
+        display: unset;
+    }
+
+    .menus {
+        display: block;
+        margin-left: 20px;
+        line-height: 35px;
+        font-size: 17px
+    }
+
+    .close-menu img {
+        width: 15px;
+    }
+
+    .close-menu {
+        cursor: pointer;
+        margin-right: 14px;
+        display: flex !important;
+        margin-top: 11px;
+        justify-content: end;
+    }
+
+    .sneaker-company {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:686px) {
+
+    .img-e-comm {
+        max-width: 420px;
+        width: 122%;
+        max-width: 561px !important;
+        width: 100% !important;
+    }
+
+    .img-e-comm img {
+        width: 100%;
+        border-radius: unset !important;
+    }
+
+    .second-section {
+        flex-direction: column;
+        height: 100%;
+    }
+
+
+    .left-side {
+        width: 100%;
+        height: 50%;
+    }
+
+    .right-side {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        flex-direction: column;
+        height: 50%;
+    }
+
+    .right-conteudo {
+        display: flex;
+        align-items: center;
+        margin: 0px !important;
+    }
+
+    .min-img-down {
+        display: none;
+        width: 100%;
+    }
+
+    .corpo {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .right-side>.right-conteudo {
+        width: 80%;
+        height: 80%;
+        display: flex;
+        margin-left: 50px;
+        flex-direction: column;
+    }
+
+    .right-side2 {
+        display: none;
+    }
+
+    .sneaker-company {
+        width: 100% !important;
+    }
+
+    .limited-sneakers {
+        width: 100% !important;
+    }
+
+    .container {
+        width: 100%;
+        min-width: none;
+        max-width: none;
+    }
+
+    .myButton {
+        width: 100%;
+        text-align: center;
+    }
+
+    .big-img-top {
+        width: 100% !important;
+    }
+
+    .sale1 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .price {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: unset;
+    }
+
+    .testando {
+        display: flex;
+
+    }
+}
+
+
+@media screen and (max-width:363px) {
+    .navbar {
+        padding: 0px 0px !important;
+        min-width: 320px;
+    }
+
+    .navbar ul li {
+        padding: 1em;
+    }
+
+    .invible-menu-lateral2 {
+        top: 78px !important;
+    }
+
+}
+
+
+
+@media screen and (min-width:807px) {
+    .invible-menu-lateral2 {
+        display: none;
+    }
+}
+
+
+/*-------------------css-função incrementar---------------*/

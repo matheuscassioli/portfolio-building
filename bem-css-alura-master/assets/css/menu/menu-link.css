@@ -1,0 +1,27 @@
+.menu__link {
+    text-decoration: none;
+    color: #808080;
+    margin-right: 1.25rem;
+    text-transform: lowercase;
+}
+
+.menu__link.ativo {
+    color: #333333;
+    font-weight: bold;
+}
+
+.menu__link:hover {
+    text-decoration: underline; 
+}
+
+@media screen and (min-width:0px){
+    .menu__link--quem-somos{
+        margin-right: .5em;
+    }
+}
+
+@media screen and (min-width:345px){
+    .menu__link--quem-somos{
+        margin-right: 1.25rem;
+    }
+}

@@ -1,0 +1,19 @@
+.pessoas {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem; 
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width:0px) {
+    /* .pessoas {
+        flex-direction: column;
+    } */
+}
+
+@media screen and (min-width:642px) {
+    .pessoas {
+        flex-direction: row;
+    }
+} 

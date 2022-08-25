@@ -1,0 +1,389 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+ul {
+    width: 100%;
+    align-items: center;
+
+
+    li {
+        list-style: none;
+        padding: 1em;
+        padding: 1em;
+
+        a {
+            color: grey;
+            text-decoration: none;
+            font-size: 16px;
+
+            &:hover {
+                transition: all .1s ease-in;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+
+.left-header {
+    display: flex;
+
+    ul {
+        align-items: center;
+        display: flex;
+        font-family: 'Kumbh Sans', sans-serif;
+    }
+}
+
+li {
+    &:nth-child(3) {
+        display: none
+    }
+
+    &:nth-child(4) {
+        display: none
+    }
+
+    &:nth-child(5) {
+        display: none
+    }
+
+    &:nth-child(6) {
+        display: none
+    }
+
+    &:nth-child(7) {
+        display: none
+    }
+
+    &:nth-child(8) {
+        display: none
+    }
+}
+
+.right-header {
+    display: flex;
+    align-items: center;
+
+    ul {
+        display: flex;
+        align-items: center;
+
+        &:nth-child(22) {
+            height: 74px;
+        }
+
+        &:nth-child(1) {
+            width: 40px !important;
+        }
+    }
+}
+
+hr {
+    size: 1px;
+    width: 92%;
+    margin: auto;
+}
+
+.menu-icon {
+    vertical-align: middle;
+    display: none;
+    display: block;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: all 1s;
+
+    img {
+        width: 30px;
+
+        &:hover {
+            transform: rotateZ(360deg)
+        }
+    }
+}
+
+.menus {
+    display: none;
+    display: block;
+    margin-left: 20px;
+    line-height: 35px;
+    font-size: 17px;
+
+    p>a {
+        color: rgb(77, 65, 65);
+        text-decoration: none;
+    }
+}
+
+.close-menu {
+    display: none;
+    cursor: pointer;
+    margin-right: 14px;
+    display: flex !important;
+    margin-top: 11px;
+    justify-content: end;
+
+    img {
+        width: 15px
+    }
+}
+
+.img-avatar {
+    width: 40px;
+
+    &:hover {
+        transition: all .1s ease-in;
+        width: 43px;
+        cursor: pointer;
+    }
+}
+
+.img-mincar {
+    &:hover {
+        transition: all .1s ease-in;
+        width: 30px;
+        cursor: pointer;
+    }
+}
+
+.second-section {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    margin-top: 30px;
+}
+
+.right-side {
+    display: flex;
+    width: 40%;
+    height: 74vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: column;
+
+    &>.right-conteudo {
+        width: 80%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.left-side {
+    display: flex;
+    width: 60%;
+    height: 74vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.big-img-top {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 80%;
+
+    img {
+        width: 100%;
+        border-radius: 12px;
+    }
+}
+
+
+.min-img-down {
+    width: 72%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    display: none;
+    width: 100%;
+
+    img {
+        width: 22%;
+        border-radius: 15px;
+    }
+}
+
+.img-e-comm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column !important;
+    max-width: 420px;
+    width: 122%;
+}
+
+.right-conteudo {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.sneaker-company {
+    text-transform: uppercase;
+    color: hsl(26, 100%, 55%);
+    font-family: 'Kumbh Sans', sans-serif;
+    margin-bottom: 16px;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.price {
+    display: flex;
+    width: 90%;
+}
+
+.limited-sneakers {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    margin: 0px 0px 24px 0px;
+    font-size: 35px;
+}
+
+.text-right {
+    margin: 0px 0px 24px 0px;
+    color: rgb(121, 118, 118);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+    white-space: inherit;
+}
+
+.sale {
+    background-color: hsl(25, 100%, 94%);
+    color: hsl(26, 100%, 55%);
+    color: orange;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    align-items: center;
+    width: 38px;
+    height: 20px;
+    vertical-align: middle;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.price1 {
+    font-size: 22px !important;
+    margin-right: 10px;
+    font-weight: bold;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.sale1 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+    color: rgb(121, 118, 118);
+}
+
+.corpo {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.container {
+    width: 30%;
+    height: 44px;
+    display: flex;
+    border: 1px solid black;
+    max-width: 100px;
+    min-width: 100px;
+    border-radius: 3px;
+    border: unset;
+    background-color: rgb(233, 231, 231);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.menos {
+    font-size: 30px;
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba(241, 188, 90, 0.452)
+    }
+}
+
+.numero {
+    display: flex;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.mais {
+    justify-content: center;
+    font-size: 30px;
+    display: flex;
+    width: 25%;
+    cursor: pointer;
+    align-items: center;
+
+    &:hover {
+        background-color: rgba(241, 188, 90, 0.452)
+    }
+}
+
+.myButton {
+    background-color: #ff9412;
+    border-radius: 10px;
+    border: 1px solid #e3a43f;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    padding: 12px 43px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #cc9f52;
+
+    &:hover {
+        background-color: #ffcf94;
+
+        &:active {
+            position: relative;
+            top: 1px;
+        }
+    }
+}

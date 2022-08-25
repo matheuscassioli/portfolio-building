@@ -1,0 +1,121 @@
+.projetos__item--barbearia-alura {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: red;
+    background-image: url(../../img/barba.png);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+.projetos__item--barbearia-alura:hover {
+    opacity: .5;
+}
+.projetos__item--barbearia-alura:active {
+    opacity: 1;
+    border: white 3px solid;
+}
+/*-*/
+
+.projetos__item--carros-estilos {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: blue;
+    background-image: url(../../img/cars.png);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+.projetos__item--carros-estilos:hover{
+    opacity: .5;
+}
+.projetos__item--carros-estilos:active{
+    opacity: 1;
+    border: white solid 3px;
+}
+
+/*-*/
+
+.projetos__item--landing-orange {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: green;
+    background-image: url(../../img/orange.png);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+.projetos__item--landing-orange:hover {
+    opacity: .5;
+}
+.projetos__item--landing-orange:active {
+    border: white solid 3px;
+    opacity: 1;
+}
+
+/*-*/
+
+.projetos__item--perfil-simples {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: orange;
+    background-image: url(../../img/perfil.png);
+    background-position: center;
+    background-size: 85%;
+    background-repeat: no-repeat;
+}
+
+.projetos__item--perfil-simples:hover {
+    opacity: .5;
+}
+.projetos__item--perfil-simples:active {
+    border: white solid 3px;
+    opacity: 1;
+}
+/*-*/
+
+.projetos__item--frutas {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: gold; 
+     background-image: url(../../img/frutas-frutos.png);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+.projetos__item--frutas:hover {
+    opacity: .5;
+}
+.projetos__item--frutas:active {
+    border: white solid 3px;
+    opacity: 1;
+}
+
+
+/*-*/
+
+.projetos__item--roxo {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: rgb(161, 2, 161);  
+    background-image: url(../../img/pessoas.png);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+.projetos__item--roxo:hover {
+    opacity: .5;
+}
+.projetos__item--roxo:active {
+    border: white solid 3px;
+    opacity: 1;
+}

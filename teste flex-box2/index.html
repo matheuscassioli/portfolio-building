@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/image-hero-desktop.png">
+    <script src="./script.js"></script>
+    <title>Teste-Flexbox</title>
+</head>
+
+<!------------------ MENU LATERAL ------------------>
+
+<div class="menu-invisible" id="elemento">
+    <div class="fechar" id="fechar" onclick="fecharMenu()">
+        <img src="./img/icon-close-menu.svg" alt="fechar">
+    </div>
+    <ul class="transparent">&nbsp;</ul>
+    <ul class="menu-lateral">
+        <li class="features-lateral">Features <div onclick="abrirDropLat()" id="down-arrow" class="down-arrow">⇲
+            </div>
+            <div onclick="fecharDropLat()" id="uparrow" class="up-arrow">⇱</div>
+        </li>
+        <div class="drop-down-lateral" id="featureslateral">
+            <ul>
+                <li><img src="./img/icon-todo.svg" alt="todolist">&nbsp;TodoList</li>
+                <li><img src="./img/icon-calendar.svg" alt="calendar">&nbsp;Calendar</li>
+                <li><img src="./img/icon-reminders.svg" alt="reminders">&nbsp;Remiders</li>
+                <li><img src="./img/icon-planning.svg" alt="planing">&nbsp;Planing</li>
+            </ul>
+        </div>
+        <li class="company-lateral">Company <div onclick="abrirDropLat2()" id="downarrow3" class="downarrow3">⇲
+            </div>
+            <div onclick="fecharDropLat2()" id="uparrow3" class="uparrow3">⇱</div>
+        </li>
+
+        <div class="drop-down-lateral" id="companylateral">
+            <ul>
+                <li>&nbsp;History</li>
+                <li>&nbsp;Our Team</li>
+                <li>&nbsp;Blog</li>
+            </ul>
+        </div>
+        <li class="carrers">Careers</li>
+        <li class="about">About</li>
+        <li class="login">Login</li>
+        <li class="register" onclick="procuraBackEnd()">Register</li>
+    </ul>
+</div>
+
+
+<!---------------------- NAV BAR ----------------------->
+
+
+
+<nav class="nav-bar">
+    <div class="nav-left">
+        <ul>
+            <li><img src="./img/logo.svg" alt="logo-snap"></li>
+            <li class="features">Features <img onclick="showDropDown()" id="idimgdownarrow" class="img-down-arrow"
+                    src="./img/icon-arrow-down.svg" alt="">
+                <img onclick="hideDropDown()" id="idimguparrow" class="img-up-arrow" src="./img/icon-arrow-up.svg"
+                    alt="">
+                <div class="drop-down" id="showdropdown">
+                    <ul>
+                        <li><img src="./img/icon-todo.svg" alt="todolist"> TodoList</li>
+                        <li><img src="./img/icon-calendar.svg" alt="calendar"> Calendar</li>
+                        <li><img src="./img/icon-reminders.svg" alt="reminders"> Remiders</li>
+                        <li><img src="./img/icon-planning.svg" alt="planing"> Planing</li>
+                    </ul>
+                </div>
+            </li>
+
+
+            <li class="company">Company<img onclick="showDropDown2()" id="iddropdowncompany"
+                    src="./img/icon-arrow-down.svg" class="img-drop-down-second" alt="seta-baixo">
+
+                <img onclick="hideDropDown2()" id="iddropupcompany" class='img-drop-up-second'
+                    src="./img/icon-arrow-up.svg" alt="">
+
+                <div class="drop-down-company" id="showdropdown2">
+                    <ul>
+                        <li>History</li>
+                        <li>Our Team</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="carrers">Careers</li>
+            <li class="about">About</li>
+
+
+
+        </ul>
+    </div>
+    <div class="nav-right">
+        <div class="menu-hamb" onclick="aparecerMenu()">
+            <img src="./img/icon-menu.svg" alt="icone-hamburguer">
+        </div>
+        <ul>
+            <li class="login">Login</li>
+            <li class="register" onclick="procuraBackEnd()">Register</li>
+        </ul>
+    </div>
+</nav>
+
+
+<!---------------------- MAIN ----------------------->
+
+
+<main class="principal">
+
+    <div class="left-side">
+        <h2>Make remote work</h2>
+
+        <p>Get your team in sync, no matter yout location, Streamline processes, create team rituals, and watch
+            productivity soar.</p>
+
+        <div class="botao"><input type="button" onclick="manipulandoDOM()" value="Learn More"></div>
+
+        <div class="audio">
+            <div class="audio1">
+                <ul>
+                    <li><img src="./img/client-databiz.svg" alt="databiz"></li>
+                    <li><img src="./img/client-audiophile.svg" alt="audiophile"></li>
+                </ul>
+            </div>
+            <div class="audio2">
+                <ul>
+                    <li><img src="./img/client-meet.svg" alt="client-meet"></li>
+                    <li><img src="./img/client-maker.svg" alt="client-maker"></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!---------------------- LADO ESQUERDO ----------------------->
+
+
+    <div class="right-side">
+        <img src="./img/image-hero-desktop.png" alt="image-desktop" class="desktop">
+        <img src="./img/image-hero-mobile.png" alt="image-mobile" class="mobile">
+    </div>
+</main>
+
+    <!---------------------- FOOTER ----------------------->
+
+<footer>
+    <p class="attribution" sty>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            class="frontendmentor">Frontend Mentor</a>.
+        Coded by <a target="_blank" href="https://www.linkedin.com/in/matheuscss/">Matheus Cassioli</a> <img
+            src="./img/linkedin.png" alt="">.
+    </p>
+</footer>
+</body>
+
+</html>
