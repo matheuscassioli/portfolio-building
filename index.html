@@ -5,79 +5,161 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="icon" href="./assets/img/code-icon.png">
+    <link rel="icon" href="./code-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,500;1,600;1,800;1,900&display=swap"
+        rel="stylesheet">
     <!-- ****************** -->
 
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/apresentacao/apresentacao.css">
     <link rel="stylesheet" href="./assets/css/projetos/projetos.css">
     <link rel="stylesheet" href="./assets/css/projetos/projetos-itens.css">
-    <link rel="stylesheet" href="./assets/css/projetos/projetos-add.css">
-    <link rel="stylesheet" href="./assets/css/projetos/projetos-add-itens.css">
+    <link rel="stylesheet" href="./assets/css/contatos/contatos.css">
     <link rel="stylesheet" href="./assets/css/footer/footer.css">
-    <link rel="stylesheet" href="./assets/css/perfil/perfil.css">
 
-    <title>Portfólio | Matheus Cassioli</title>
+
+    <title>Matheus Cassioli | Dev Front-end</title>
 </head>
 
 <body>
-    <header></header>
+
+
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo">Matheus Cassioli</h1>
+        <nav class="cabecalho__navegacao">
+            <ul class="cabecalho__lista">
+                <li class="cabecalho__item"><a href="#" class="cabecalho__link">Home</a></li>
+                <li class="cabecalho__item"><a href="#" class="cabecalho__link">Sobre</a></li>
+                <li class="cabecalho__item"><a href="#" class="cabecalho__link">Experiência</a></li>
+                <li class="cabecalho__item"><a href="#projetos" class="cabecalho__link">Projetos</a></li>
+                <li class="cabecalho__item"><a href="#contatos" class="cabecalho__link">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
-        <section class="perfil">
-            <img class="perfil__imagem" src="./assets/img/matheus-perfil.jpg" alt="foto de perfil Matheus Cassioli"
-               >
-            <h1 class="perfil__titulo">Matheus Cassioli</h1>
-            <p class="perfil__descricao">Desenvolvedor front-end na Faculdade das Américas, graduando em Análise e
-                Desenvolvimento de Sistemas e atualmente Aluno Alura, complementando meus conhecimentos </p>
-            <div class="perfil__redes">
-                <div></div>
-                <div></div>
-                <div></div>
+
+        <section class="apresentacao">
+            <div class="apresentacao__texto__pai">
+                <p class="apresentacao__texto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate at
+                    eveniet et ipsa ex, labore, iste nostrum harum deserunt laboriosam fuga rem sequi quam maiores vitae
+                    tempore tempora dolores molestiae.</p>
+
+                <div class="apresentacao__redes-sociais">
+                    <a href="mailto:matheuscassioli@Hotmail.com">
+                        <div class="apresentacao__redes-sociais--email"></div>
+                    </a>
+                    <a href="https://github.com/matheuscassioli" target="_blank">
+                        <div class="apresentacao__redes-sociais--github"></div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/matheuscss/" target="_blank">
+                        <div class="apresentacao__redes-sociais--linkedin"></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="apresentacao__img__pai">
+                <img src="./assets/img/matheus-perfil.jpg" alt="foto matheus cassioli" class="apresentacao__imagem">
             </div>
         </section>
 
-        <section class="projetos">
-            <a href="./barbearia-alura/index.html" target="_blank">
-                <div class="projetos__item--barbearia-alura"></div>
-            </a>
-            <a href="./project-cars-responsive-OK/index.html" target="_blank">
-                <div class="projetos__item--carros-estilos"></div>
-            </a>
-            <a href="./fruits-landing/index.html" target="_blank">
-                <div class="projetos__item--landing-orange"></div>
-            </a>
-            <a href="./simple-project-perfil-OK/index.html" target="_blank">
-                <div class="projetos__item--perfil-simples"></div>
-            </a>
-            <a href="./bem-css-alura-master/index.html" target="_blank">
-                <div class="projetos__item--frutas"></div>
-            </a>
-            <a href="./simple-project-purple/index.html" target="_blank">
-                <div class="projetos__item--roxo"></div>
-            </a>
+
+        <section class="projetos" id="projetos">
+            <div class="projetos__conteudo">
+
+                <h2 class="projetos__subtitulo">Projetos</h2>
+                <div class="projetos__container">
+
+                    <img class="projetos__arrow-left control" aria-label="Previous image"
+                        src="././assets/img/arrrow-left.png" alt="seta para a esquerda">
+
+                    <img class="projetos__arrow-right control" aria-label="Next Image"
+                        src="././assets/img/arrow-right.png" alt="seta para direita">
+
+                    <div class="projetos__gallery-wrapper">
+
+                        <div class="projetos__gallery">
+
+                            <div class="projetos__item--barbearia-alura item current-item">
+                                <a href="#"><span class="demo">DEMO</span></a>
+                                <a href="#"><span class="code">CODE</span></a>
+                            </div>
+
+
+                            <div class="projetos__item--carros-estilos item current-item">
+                                <a href="#"><span class="demo">DEMO</span></a>
+                                <a href="#"><span class="code">CODE</span></a>
+                            </div>
+
+
+                            <div class="projetos__item--landing-orange item current-item">
+                                <a href="#"><span class="demo">DEMO</span></a>
+                                <a href="#"><span class="code">CODE</span></a>
+                            </div>
+
+
+                            <div class="projetos__item--perfil-simples item current-item">
+                                <a href="#"><span class="demo">DEMO</span></a>
+                                <a href="#"><span class="code">CODE</span></a>
+                            </div>
+
+
+                            <div class="projetos__item--frutas item current-item">
+                                <a href="#"><span class="demo">DEMO</span></a>
+                                <a href="#"><span class="code">CODE</span></a>
+                            </div>
+
+                            <div class="projetos__item--roxo item current-item">
+                                <a href="#"><span class="demo">DEMO</span></a>
+                                <a href="#"><span class="code">CODE</span></a>
+                            </div>
+
+
+                            <div class="projetos-add__item--snap item current-item">
+                                <a href="#"><span class="demo">DEMO</span></a>
+                                <a href="#"><span class="code">CODE</span></a>
+                            </div>
+
+                            <div class="projetos-add__item--huddle item current-item">
+                                <a href="#"><span class="demo">DEMO</span></a>
+                                <a href="#"><span class="code">CODE</span></a>
+                            </div>
+
+                            <div class="projetos-add__item--ecommerce item current-item">
+                                <a href="#"><span class="demo">DEMO</span></a>
+                                <a href="#"><span class="code">CODE</span></a>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section class="projetos-add">
-            <a href="./teste flex-box2/index.html" target="_blank">
-                <div class="projetos-add__item--snap"></div>
-            </a>
-            <a href="./project-huddle-big/main.html" target="_blank">
-                <div class="projetos-add__item--huddle"></div>
-            </a>
-            <a href="./ecommerce-product-page-project/index.html" target="_blank">
-                <div class="projetos-add__item--ecommerce"></div>
-            </a>
+
+        <section class="contatos" id="contatos">
+            <h2 class="contatos__subtitulo">Contatos</h2>
+            <ul class="contatos__lista">
+                <li class="contatos__itens">WhatsApp</li>
+                <li class="contatos__itens">E-mail</li>
+                <li class="contatos__itens">LinkedIn</li>
+            </ul>
         </section>
+
     </main>
 
     <footer>
         <p class="attribution">
             Coded by <a target="_blank" href="https://www.linkedin.com/in/matheuscss/">Matheus Cassioli</a> <img
-                src="./barbearia-alura/img/linkedin.png" alt="">.
+                src="./assets/img/linkedin.png" alt="">.
         </p>
     </footer>
+
+    <script src="./main.js"></script>
 </body>
 
 </html>

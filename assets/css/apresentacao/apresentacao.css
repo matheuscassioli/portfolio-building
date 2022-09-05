@@ -1,0 +1,110 @@
+.apresentacao {
+    display: flex;
+    width: 85%;
+    padding: 3rem 0;
+    justify-content: space-evenly;
+}
+
+.apresentacao__texto__pai {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.apresentacao__texto {
+    line-height: 1.8rem;
+    font-size: 1.3rem;
+    max-width: 450px;
+    color: white;
+}
+
+.apresentacao__redes-sociais {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-around;
+    width: 60%;
+    margin-left: -3rem;
+}
+
+.apresentacao__redes-sociais--github {
+    width: 40px;
+    height: 40px;
+    background: url(../../img/github-white.png) center /cover no-repeat;
+}
+
+.apresentacao__redes-sociais--github:hover {
+    background: url(../../img/github-purple.png) center /cover no-repeat;
+    transition: .8s;
+}
+
+
+.apresentacao__redes-sociais--linkedin {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(82, 107, 218, 0.425);
+    background: url(../../img/linkedin-white.png) center /cover no-repeat;
+}
+
+.apresentacao__redes-sociais--linkedin:hover {
+    background: url(../../img/linkedin-blue.png) center /cover no-repeat;
+    transition: .8s;
+}
+
+.apresentacao__redes-sociais--email {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(82, 107, 218, 0.425);
+    background: url(../../img/mail-white.png) center /cover no-repeat;
+}
+
+.apresentacao__redes-sociais--email:hover {
+    transition: .8s;
+    background: url(../../img/mail-blue.png) center /cover no-repeat;
+}
+
+
+
+.apresentacao__img__pai {
+    animation-name: animacao__imagem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-duration: 15s;
+    border-radius: 100%;
+    animation-iteration-count: infinite;
+
+}
+
+.apresentacao__imagem {
+    border-radius: 100%;
+    max-width: 320px;
+    margin: 1rem;
+}
+
+
+@keyframes animacao__imagem {
+    1% {
+        background-color: blue;
+    }
+
+    15% {
+        background-color: rgb(36, 129, 36);
+    }
+
+    45% {
+        background-color: rgb(240, 57, 57);
+    }
+
+    60% {
+        background-color: rgb(219, 143, 2);
+    }
+
+    75% {
+        background-color: rgb(223, 82, 223);
+    }
+
+    90% {
+        background-color: rgb(104, 104, 240);
+    }
+}

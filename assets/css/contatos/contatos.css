@@ -1,0 +1,29 @@
+.contatos {
+    display: flex; 
+    flex-direction: column;
+    padding: 3rem 0;
+    font-family: 'Poppins', sans-serif; 
+    color: rgb(255, 255, 255); 
+    width: 30em;
+    width: 85%;
+  }
+  
+.contatos__subtitulo {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+ 
+.contatos__lista{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.contatos__itens{
+    width: 25%;
+    list-style-type: none; 
+    border: solid white 3px;
+    padding: 2rem;
+}
